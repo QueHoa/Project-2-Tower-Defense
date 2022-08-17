@@ -4927,8 +4927,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 76e9931de5d270743bcd1c7ed5a50ed5, type: 2}
-  - {fileID: 2100000, guid: 4aaf84807a7a384409250b1521a031fb, type: 2}
+  - {fileID: 2100000, guid: e6a0b6972b6a8574bbb32c735856c8cf, type: 2}
+  - {fileID: 2100000, guid: 38f8dcb009364384b966f35feb808cff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5009,9 +5009,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0f471bdfb514cb545b116a78f2548472, type: 2}
-  - {fileID: 2100000, guid: b40fcd3e748485b4d83e126f1ac471e1, type: 2}
-  - {fileID: 2100000, guid: c3f670d23562ea343ac2a248856d9d79, type: 2}
+  - {fileID: 2100000, guid: 8119c70793c08f34fae70039bba37a39, type: 2}
+  - {fileID: 2100000, guid: 59a9d95bb977a964ebffb51f8884bf69, type: 2}
+  - {fileID: 2100000, guid: 60e1f34b7f317a64abddb58fde074f51, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5045,7 +5045,7 @@ GameObject:
   - component: {fileID: 6556338065653238270}
   - component: {fileID: 1722492315693014354}
   m_Layer: 0
-  m_Name: LaserBeamer
+  m_Name: LaserBeamer_Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5178,12 +5178,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89e58e17ccca86642a73d908b186c94d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 20
+  range: 30
   bulletPrefab: {fileID: 0}
   fireRate: 1
   useLaser: 1
-  damageOverTime: 30
-  slowAmount: 0.5
+  damageOverTime: 40
+  slowAmount: 0.8
   lineRenderer: {fileID: 6556338065653238270}
   impactEffect: {fileID: 7377629382201221850}
   impactLight: {fileID: 3743659007572377561}
@@ -5235,7 +5235,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.16718163, g: 0.9433962, b: 0.1192595, a: 1}
   m_Intensity: 3
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -5568,8 +5568,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 3
-      minScalar: 2
+      scalar: 4
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:

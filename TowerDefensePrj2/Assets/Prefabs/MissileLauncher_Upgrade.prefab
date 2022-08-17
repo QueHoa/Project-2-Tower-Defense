@@ -91,8 +91,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1bbd1c8d36715a14c8d5a58f44488a63, type: 2}
   - {fileID: 2100000, guid: 27d3161aeeea28c42956c89e566b3d08, type: 2}
+  - {fileID: 2100000, guid: 1bbd1c8d36715a14c8d5a58f44488a63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 448243828349573884}
   - component: {fileID: 1549038689843580261}
   m_Layer: 0
-  m_Name: MissileLauncher
+  m_Name: MissileLauncher_Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ Transform:
   m_GameObject: {fileID: 969307252697186374}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 6876762646345712846}
   - {fileID: 122373575805797024}
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 30
   bulletPrefab: {fileID: 908829197096661715, guid: da902e3ebe0877c4c9ce7e66c83ff264, type: 3}
-  fireRate: 0.25
+  fireRate: 0.4
   useLaser: 0
   damageOverTime: 30
   slowAmount: 0.5

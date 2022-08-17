@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9217616370348223031}
-  - component: {fileID: 2336400074321085364}
+  - component: {fileID: 480644224130443403}
   m_Layer: 0
-  m_Name: AnotherTurret
+  m_Name: StandardTurret_Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,14 +26,14 @@ Transform:
   m_GameObject: {fileID: 3537168760774260681}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 8843592988225384386}
   - {fileID: 6992815347692266076}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2336400074321085364
+--- !u!114 &480644224130443403
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 15
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 6273932365061495778, guid: e23a1d9afffebc540b8e61310e663da8, type: 3}
   fireRate: 1
   useLaser: 0
   damageOverTime: 30
@@ -55,9 +55,9 @@ MonoBehaviour:
   impactEffect: {fileID: 0}
   impactLight: {fileID: 0}
   enemyTag: Enemy
-  partToRotate: {fileID: 0}
+  partToRotate: {fileID: 6992815347692266076}
   turnSpeed: 10
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 8060319587402006895}
 --- !u!1 &4859283832911782874
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,9 +179,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51e8f7a7567757f4281a8347d9297174, type: 2}
-  - {fileID: 2100000, guid: 9fdb24b7848be85408a2899b04d80ecf, type: 2}
-  - {fileID: 2100000, guid: 1dc2e0a53ea4dd4488e6ee254b5ae37c, type: 2}
+  - {fileID: 2100000, guid: 181276e9a7af349498f6fa3e542be6e9, type: 2}
+  - {fileID: 2100000, guid: 9bdbf319771017841aefd694c533a64c, type: 2}
+  - {fileID: 2100000, guid: 4fa6e3c2774337346854d13d76fded07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
