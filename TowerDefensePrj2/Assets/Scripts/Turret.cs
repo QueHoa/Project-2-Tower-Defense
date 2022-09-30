@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -101,7 +101,7 @@ public class Turret : MonoBehaviour {
 
 	}
 
-	void LockOnTarget ()
+	void LockOnTarget ()//trụ hướng về phía Enemy khi có Enemy xuất hiện
 	{
 		Vector3 dir = target.position - transform.position;
 		Quaternion lookRotation = Quaternion.LookRotation(dir);

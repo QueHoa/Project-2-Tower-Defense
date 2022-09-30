@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -28,11 +28,11 @@ public class Enemy : MonoBehaviour {
 		health = startHealth;
 	}
 
-	public void TakeDamage (float amount)
+	public void TakeDamage (float amount)//khi gây damage cho Enemy 
 	{
 		health -= amount;
 
-		healthBar.fillAmount = health/ startHealth;
+		healthBar.fillAmount = health/ startHealth;//thanh hiển thị máu
 
 		if (health <= 0 && !isDead)
 		{
@@ -40,12 +40,12 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 
-	public void Slow (float pct)
+	public void Slow (float pct)//hàm làm chậm Enemy
 	{
 		speed = startSpeed * (1f - pct);
 	}
 
-	void Die ()
+	void Die ()//khi Enemy chết
 	{
 		isDead = true;
 
